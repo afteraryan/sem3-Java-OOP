@@ -1,0 +1,17 @@
+EXPERIMENT – 3
+
+ 
+
+1.     Write a program to accept three digits (i.e., 0 - 9) and print all its possible combinations. 
+
+(For example if the three digits are 1, 2, 3 than all possible combinations are : 123, 132, 
+
+213, 231, 312, 321.)
+
+2.     Write a Java Program to accept 10 numbers in an array and compute the square of each number. Print the sum of these numbers.
+
+3.     Write a program to input a number of a month (1 - 12) and print its equivalent name of 
+
+	the month. ( e.g 1 to Jan, 2 to Feb. 12 to Dec.)
+
+4.     Write a program to find the sum of all integers greater than 40 and less than 250 that are divisible by 5.
