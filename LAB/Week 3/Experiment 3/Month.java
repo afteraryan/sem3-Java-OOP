@@ -79,6 +79,7 @@ public class Month
         System.out.print("Enter month number: ");
         int n = sc.nextInt();
         obj.InputMonth(n);
+        sc.close();
     }
 
 }
