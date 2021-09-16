@@ -12,7 +12,7 @@ public class CL_Calculator {
                 Output= x-y;
                 System.out.println(x + c + y + "= "  + Output);
                 break;
-            case "*":
+            case "x":                        //Java CL doesn't consider '*' as multiply operator, 'x' is the multiply operator
                 Output= x*y;
                 System.out.println(x + c + y + "= "  + Output);
                 break;

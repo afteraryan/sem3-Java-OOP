@@ -1,0 +1,15 @@
+EXPERIMENT – 6
+
+TITLE: Package
+
+ 
+
+1.    Write a Java program to implement the concept of importing classes from user defined package and created packages.
+
+ 
+
+2.    Write a program to make a package Balance. This has an Account class with Display_Balance method. Import Balance package in another program to access Display_Balance method of Account class. 
+
+ 
+
+3.    WAP to create a package p with class A with 4 types of access protected methods. How we will use these methods in different packages class i.e. there is main() in class B in package Q and 4 methods are in Class A in package p.

@@ -21,7 +21,7 @@ public class Digit3
     void NumberCreator(int[] userinput)
     {
         int arr[];
-        arr = new int[6];
+        arr = new int[10];
         int l=0;
         for(int i=0;i<3;i++)
         {
