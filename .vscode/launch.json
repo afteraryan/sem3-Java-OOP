@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Exp1",
+            "request": "launch",
+            "mainClass": "Exp1",
+            "projectName": "sem3-Java-OOP_1891503d"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
