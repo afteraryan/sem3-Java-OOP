@@ -45,7 +45,6 @@ public class IndextOutofBounds
         }
         catch (ArrayIndexOutOfBoundsException e) 
         {
-            //TODO: handle exception
             System.out.println("Array oversized: "  + e );
             System.out.println("Try less than 10!\n");
         }
