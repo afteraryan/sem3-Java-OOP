@@ -46,7 +46,7 @@ java.util.InputMismatchException
 
  
 
-5. You are required to compute the power of a number by implementing a calculator. Create a class Calc which consists of a single method long power(int, int). This method takes two integers, a and b, as parameters and finds ab. If either a or b is negative, then the method must throw an exception which says "a and b should not be negative". Also, if both a and bare zero, then the method must throw an exception which says "a and b should not be zero"
+5. Done: You are required to compute the power of a number by implementing a calculator. Create a class Calc which consists of a single method long power(int, int). This method takes two integers, a and b, as parameters and finds ab. If either a or b is negative, then the method must throw an exception which says "a and b should not be negative". Also, if both a and bare zero, then the method must throw an exception which says "a and b should not be zero"
 
 lang.Exception: a and b should not be negative.
 Complete the function power in class Calc and return the appropriate result after the power operation or an appropriate exception as detailed above.
