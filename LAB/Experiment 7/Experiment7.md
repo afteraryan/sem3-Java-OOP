@@ -7,7 +7,7 @@ TITLE: Exceptions
 1. Done: Write a program in Java to display the names and roll numbers of students. Initialize respective array variables for 10 students. Handle ArrayIndexOutOfBoundsException, so that any such problem doesn’t cause illegal termination of program.
 2. Done: Create an exception class, which throws an exception if operand is nonnumeric in calculating modules. (Use command line arguments).
 3. Done: Write a code to create your own exception class. Create another class, inside main method prompt user to enter a number if number is less than 500 throw instances of your custom exception class.
-4. You are given two integers,a and b as input, you have to compute a/b: If a and b are not bit signed integers or if is zero, exception will occur and you have to report it. Read sample Input/Output to know what to report in case of exceptions.
+4. Done: You are given two integers,a and b as input, you have to compute a/b: If a and b are not bit signed integers or if is zero, exception will occur and you have to report it. Read sample Input/Output to know what to report in case of exceptions.
 Sample Input 0:
 
 10
