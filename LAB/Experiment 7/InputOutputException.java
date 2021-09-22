@@ -13,7 +13,7 @@ public class InputOutputException {
             sc.close();
             try
             {
-                System.out.println(a/b);
+                System.out.println(a + "/" + b + " = " + a/b);
             }
             catch(ArithmeticException e)
             {
