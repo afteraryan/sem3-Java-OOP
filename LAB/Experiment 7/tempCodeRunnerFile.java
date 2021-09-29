@@ -1,40 +1,30 @@
-class UserException extends Exception
+import java.util.*;
+class Exception500 extends Exception
 {
-    public UserException(String s)
+    public Exception500(String s)
     {
         super(s);
     }
 }
-  
-public class CustomException
-{
-    public static boolean isNumeric(String str)
-    {
-        return str != null && str.matches("[-+]?\\d*\\.?\\d+");
-    }
 
-    public static void main(String args[])
+class Lessthan500
+{
+    public static void main(String[] args)
     {
-        
+        Scanner sc= new Scanner(System.in);
+        System.out.print("Enter a number: ");  
+        int n= sc.nextInt();
+        sc.close();
         try
         {
-            if(!isNumeric(args[0])||!isNumeric(args[1]))
-            {
-                throw new UserException("Non-Numeric Entry!");
-                
-            }    
+            if(n<500)
+                throw new Exception500("Value less than 500");
             else
-            {
-                int a = Integer.parseInt(args[0]);
-                int b = Integer.parseInt(args[1]);
-                System.out.println("Modulus of " + a + " and " + b + ": " + (a%b));
-                
-            }
+                System.out.println("No Exception found!\n");
         }
-        catch (UserException e)
+        catch (Exception500 e)
         {
-            System.out.println("Excepion Caught!");
-            System.out.println(e.getMessage() + "\n");
+            System.out.println("Exception Caught: " + e.getMessage() + "\n");
         }
     }
 }
