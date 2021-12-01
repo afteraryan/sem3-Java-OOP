@@ -15,5 +15,9 @@
   "C_Cpp_Runner.cppStandard": "",
   "C_Cpp_Runner.excludeSearch": [],
   "C_Cpp_Runner.enableWarnings": true,
-  "C_Cpp_Runner.warningsAsError": false
+  "C_Cpp_Runner.warningsAsError": false,
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "c:\\Program Files (x86)\\MySQL\\Connector J 8.0\\mysql-connector-java-8.0.27.jar"
+  ]
 }
