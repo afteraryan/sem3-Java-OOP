@@ -8,6 +8,10 @@ class Parent
         {
             System.out.println("Parent Method");
         }
+        void CallParent()
+        {
+            System.out.println("Calling Parent with super");
+        }
 }
 
 public class Inheritence extends Parent
@@ -20,10 +24,15 @@ public class Inheritence extends Parent
     {
         System.out.println("Parent Method");
     }
+    void CallParent()
+    {
+        super.CallParent();
+    }
 
     public static void main(String[] args)
     {
         Inheritence obj = new Inheritence();
         obj.Display();
+        //obj.CallParent();
     }
 } 
