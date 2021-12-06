@@ -25,7 +25,7 @@ public class JDBC1
                     System.out.println(rsMetaData.getColumnName(i));
                 }
             */
-            system.out.println(stmt);
+            System.out.println(stmt);
             con.close();  
 
         }
