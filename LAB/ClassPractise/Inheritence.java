@@ -4,7 +4,7 @@ class Parent
         {
             System.out.println("Parent constructor!");
         }
-        public void Display()
+        void Display()
         {
             System.out.println("Parent Method");
         }
@@ -20,9 +20,9 @@ public class Inheritence extends Parent
     {
         System.out.println("Child constructor!");
     }
-    protected void Display()
+    void Display()
     {
-        System.out.println("Parent Method");
+        System.out.println("Child Method");
     }
     void CallParent()
     {
@@ -33,6 +33,6 @@ public class Inheritence extends Parent
     {
         Inheritence obj = new Inheritence();
         obj.Display();
-        //obj.CallParent();
+        obj.CallParent();
     }
 } 

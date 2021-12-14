@@ -1,27 +1,31 @@
 public class ConstructorOverloading 
 {
-    ConstructorOverloading()
+    void ConstructorOverloaded()
     {
         System.out.println("Constructor 1");
     }
-    ConstructorOverloading(String S)
+    void ConstructorOverloaded(String S)
     {
         System.out.println(S);
     }
-    ConstructorOverloading(String S, int n)
+    void ConstructorOverloaded(String S, int n)
     {
         System.out.println(S + n);
     }
-    ConstructorOverloading(int n)
+    void ConstructorOverloaded(int n)
     {
         System.out.println("Constructor " + n);
     }
     public static void main(String[] args)
     {
         ConstructorOverloading obj = new ConstructorOverloading();
-        ConstructorOverloading obj2= new ConstructorOverloading("Constructor 2");
-        ConstructorOverloading obj3 = new ConstructorOverloading("Constructor ",3);
-        ConstructorOverloading obj4 = new ConstructorOverloading(4);
+        ConstructorOverloading obj2= new ConstructorOverloading();
+        ConstructorOverloading obj3 = new ConstructorOverloading();
+        ConstructorOverloading obj4 = new ConstructorOverloading();
+        obj.ConstructorOverloaded();
+        obj2.ConstructorOverloaded("Constructor 2");
+        obj3.ConstructorOverloaded("Constructor ",3);
+        obj4.ConstructorOverloaded(4);
     }
    
 }
