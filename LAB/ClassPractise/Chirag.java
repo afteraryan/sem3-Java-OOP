@@ -1,12 +1,12 @@
-class Parent 
+class SurendraUncle 
 {
-        Parent()
+        SurendraUncle()
         {
             System.out.println("Parent constructor!");
         }
         void Display()
         {
-            System.out.println("Parent Method");
+            System.out.println("Uncle");
         }
         void CallParent()
         {
@@ -14,15 +14,15 @@ class Parent
         }
 }
 
-public class Inheritence extends Parent
+public class Chirag extends SurendraUncle
 {
-    Inheritence()
+    Chirag()
     {
         System.out.println("Child constructor!");
     }
     void Display()
     {
-        System.out.println("Child Method");
+        System.out.println("Chirag");
     }
     void CallParent()
     {
@@ -31,7 +31,7 @@ public class Inheritence extends Parent
 
     public static void main(String[] args)
     {
-        Inheritence obj = new Inheritence();
+        Chirag obj = new Chirag();
         obj.Display();
         obj.CallParent();
     }
