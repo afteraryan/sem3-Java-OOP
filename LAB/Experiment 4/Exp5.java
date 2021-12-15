@@ -44,8 +44,9 @@ class Manager extends Employee {
 }
 public class Exp5 {
     public static void main(String[] args) {
-        Employee A = new Employee("Bunty", 8118, 1024.67);
-        Manager B = new Manager("Bubly", 1881, 9525.25, "Department 1");
+        Employee A = new Employee("Bunty", 8118, 100);
+        Manager B = new Manager("Bubly", 1881, 100, "Department 1");
+        B.increaseSalary(25);
         System.out.println("Name: "+A.getName()+"\nSalary: "+A.getSalary());
         System.out.println("Name: "+B.getName()+"\nSalary: "+B.getSalary());
     }
