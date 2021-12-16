@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch JDBC2",
+            "request": "launch",
+            "mainClass": "JDBC2",
+            "projectName": "sem3-Java-OOP_1891503d"
+        },
+        {
+            "type": "java",
             "name": "Launch JDBC",
             "request": "launch",
             "mainClass": "JDBC",
