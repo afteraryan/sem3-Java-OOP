@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ArrayListIterator",
+            "request": "launch",
+            "mainClass": "ArrayListIterator",
+            "projectName": "sem3-Java-OOP_1891503d"
+        },
+        {
+            "type": "java",
             "name": "Launch SwitchTest",
             "request": "launch",
             "mainClass": "SwitchTest",
